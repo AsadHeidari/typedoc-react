@@ -1,0 +1,21 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "TypeDoc Example For React (Nextjs)",
+  "entryPoints": ["./src/**/*.ts", "./src/**/*.tsx"],
+  "plugin": [
+    "typedoc-theme-hierarchy",
+    "typedoc-plugin-rename-defaults",
+    "typedoc-plugin-markdown"
+  ],
+  "theme": "hierarchy",
+  "out": "document",
+  "customCss": "./custom.css",
+  "htmlLang": "fa",
+  "hideGenerator": true,
+  "searchInComments": true,
+  "navigationLinks": {
+    "AsadHeidari": "http://linkedin.com/in/asad-heidari-9197831b7/"
+  },
+  "commentStyle": "all",
+  "visibilityFilters": {}
+}
